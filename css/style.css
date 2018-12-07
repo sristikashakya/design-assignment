@@ -4,9 +4,6 @@
 .mid-header{
     text-align: center;
 }
-.slider-wrapper{
-    background-color: brown;
-}
 .footer-wrapper{
     background-color: rgb(44, 40, 40);
 }
@@ -179,7 +176,7 @@ li.iphone{
     box-shadow: 3px 3px 5px 6px #ccc;
 }
 .offer-box h3{
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     margin-top: 30px;
 }
@@ -323,3 +320,35 @@ li.iphone{
     line-height: 25px;
     font-size: 15px;
 }
+.carousel-container{
+    width: 960px;
+    overflow: hidden;
+  }
+  #carousel-slide{
+    width: 28800px;
+    height: 500px;
+  
+  }
+  #carousel-slide img{
+    float: left;
+    width: 960px;
+    height: 500px;
+  }
+  .slider-text-bottom {
+    background: #cc003e;
+    color: white;
+}
+.slider-text-bottom p {
+    text-overflow: ellipsis;
+}
+.slider-text-bottom p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    padding-right: 10px;
+    background-image: url("../img/Readmore-plus.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+  
